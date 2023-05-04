@@ -177,9 +177,9 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                                           },
                                           child: Container(
                                             alignment: Alignment.center,
-                                            width: 56.0,
-                                            height: 56.0,
-                                            margin: EdgeInsets.all(8.0),
+                                            width: 40.0,
+                                            height: 40.0,
+                                            margin: EdgeInsets.all(4.0),
                                             decoration: BoxDecoration(
                                               color: _selectedSize == size ? Colors.blue : Colors.grey,
                                               borderRadius: BorderRadius.circular(8.0),
